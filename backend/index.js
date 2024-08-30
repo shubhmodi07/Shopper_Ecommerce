@@ -11,7 +11,7 @@ const { METHODS } = require('http');
 const app = express();
 app.use(cors(
     {
-        origin: ["https://shopper-ecommerce-frontend-omega.vercel.app/"],
+        origin: ["https://shopper-ecommerce-frontend-omega.vercel.app"],
         methods: ["POST",'GET'],
         credentials: true
 
